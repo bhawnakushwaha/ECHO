@@ -1,22 +1,26 @@
-# Byte-compiled / optimized / DLL files
+# Ignore Python cache
 __pycache__/
 *.py[cod]
-*.so
 
-# Virtual environment
+# Ignore virtual environment folders
 env/
 venv/
-ENV/
-.env
+Include/
 
-# VSCode settings
+# Ignore IDE/editor config files
 .vscode/
+.idea/
 
-# Mac / Linux system files
+# Ignore OS-specific files
 .DS_Store
-
-# Windows system files
 Thumbs.db
 
-# SQLite or other databases
-*.sqlite3
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore pygame folder you mentioned
+Include/site/python3.12/pygame/
+
+# Ignore PDF test file
+test.pdf
